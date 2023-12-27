@@ -1,0 +1,44 @@
+.main {
+    padding: 2rem 3rem;
+}
+
+.main ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1rem));
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 8rem;
+}
+
+.main img {
+    /*min-width: 215px;
+    max-height: 220px;*/
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.main .imageListItem {
+    width: 220px; 
+    border-radius: 0.5rem;
+    box-shadow: 0 25px 50px 0 rgba(0,0,0,0.85);
+}
+
+.main .imageListItemBar {
+    text-align: center;
+    margin-top: -6px; 
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+/* The wrapper around title and subtitle of the image */
+.main .css-186gwnw-MuiImageListItemBar-titleWrap {
+    padding: 7px 0 7px;
+}
+
+.main .subtitle {
+    font-weight: 100;
+    padding: 10px;
+    color: #808080;
+}
